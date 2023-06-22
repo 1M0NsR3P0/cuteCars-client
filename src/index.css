@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind utilities;
+.navbar li {
+    
+}
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: fixedNav 0.3s ease-in 1;
+    height:20px;
+  }
+  .galleryBg{
+    /* background-image: url(https://i.ibb.co/khJmky0/1755735-1.png),url(https://i.ibb.co/68KzdG0/883949-1.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('https://i.ibb.co/8d0xLdH/1755735-2.png');
+  }
+
+  .scaleMe{
+animation: scaleMe 1s ease-in 1 ;
+  }
+
+
+  @keyframes scaleMe {
+    from{
+      transform: scale(20%);
+    }
+
+  }
+
+  @keyframes fixedNav {
+    from{
+        /* transform: scaleY(-10%); */
+        /* translate: 0px; */
+    }
+    to{
+        /* transform: translateY(-10px); */
+    }
+  }

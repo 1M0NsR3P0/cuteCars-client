@@ -1,0 +1,32 @@
+.react-tabs{
+    width: 1500px;
+    text-align: center;
+    height: 400px;
+}
+.react-tabs img{
+    width: 200px;
+    height: 200px;
+}
+.react-tabs__tab-list{
+    background-color: rgb(138, 138, 247);
+    border-radius: 15px;
+}
+.react-tabs__tab{
+    margin-right: -8px;
+    width: 200px;
+    background-color: rgb(138, 138, 247);
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+}
+.react-tabs__tab--selected{
+    background-color: rgb(68, 84, 252);
+    z-index: 10;
+}
+.react-tabs__tab-panel{
+    /* background-color: rgb(138, 138, 247); */
+
+} 
+.react-tabs__tab-panel--selected{
+
+
+}

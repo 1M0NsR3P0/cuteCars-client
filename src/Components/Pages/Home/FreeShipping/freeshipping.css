@@ -1,0 +1,15 @@
+.background{
+    /* background-image: url('https://i.ibb.co/zhsZdWd/hearts-pattern-blue.jpg'); */
+    background-color: rgba(138, 138, 255, 0.828);
+    /* height: 0; */
+    margin: 80px 150px;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/public/fonts//Oswald-Regular.ttf');
+}
+
+.fontStyle {
+    font-family: "Oswald";
+}
